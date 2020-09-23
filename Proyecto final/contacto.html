@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contacto</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,200;1,500;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="imagen-logo">
+        <img src="imagenes/logoRS.png" alt="logo empresa sol rojo" />
+      </div>
+
+      <!--Aqui irian los vinculos a redes sociales-->
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="artistas.html">Artistas</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="titulo-h1">
+      <h1><a href="index.html">No music, no life</a></h1>
+    </div>
+
+    <div class="imagen-contacto">
+      <img
+        src="imagenes/rsz_imagen-contacto.jpg"
+        alt="microfono en primer plano"
+      />
+    </div>
+
+    <section>
+      <div class="contenedor-contacto">
+        <h2>Contacto</h2>
+        <form action="#">
+          <div class="form-nombre">
+            <label for="nombre"></label>Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required />
+          </div>
+          <div class="form-apellido">
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" required />
+          </div>
+          <div class="form-email">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-textarea">
+            <textarea placeholder="Contanos sobre vos!"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Enviar" />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <p class="p-footer">Design Ariel Orue Buenos Aires 2020</p>
+  </footer>
+</html>
