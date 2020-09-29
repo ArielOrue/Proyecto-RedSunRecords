@@ -376,3 +376,136 @@ html {
     }
   }
 }
+
+@media (max-width: 768px) {
+  html {
+    width: 768px;
+  }
+
+  html header {
+    display: inline;
+  }
+
+  html body header div.imagen-logo img {
+    margin-left: 80px;
+  }
+
+  html body div.imagen-artistas img {
+    width: 700px;
+  }
+
+  html .artistas-contenedor .artista-1 .img-wallows {
+    margin-left: 115px;
+  }
+
+  html .artistas-contenedor .artista-1 .iframe-wallows {
+    margin-left: 140px;
+    width: 500px;
+    height: 580px;
+  }
+
+  html .artistas-contenedor .artista-2 .img-elmato {
+    margin-left: 115px;
+  }
+
+  html .artistas-contenedor .artista-2 .iframe-elmato {
+    margin-left: 140px;
+    width: 500px;
+    height: 580px;
+  }
+  
+  html .artistas-contenedor .artista-3 .img-tame {
+    margin-left: 115px;
+  }
+
+  html .artistas-contenedor .artista-3 .iframe-tame {
+    margin-left: 140px;
+    width: 500px;
+    height: 580px;
+  }
+
+  html body div.imagen-servicios img {
+    width: 700px;
+  }
+
+  html .contenedor-prod-music .imagen-prod {
+    width : 500px;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+
+  html .contenedor-medios .imagen-medios {
+    width : 500px;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+
+  html .contenedor-legales .imagen-legales {
+    width : 500px;
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+
+  html body div.imagen-contacto img {
+    width: 700px;
+  }
+
+  html body section div.contenedor-contacto form {
+    width: 50%;
+    margin-left: 120px;
+  }
+
+  html body div.imagen-nosotros img {
+    width: 700px;
+  }
+
+  html body section.nosotros-equipo {
+    display: inline;
+  }
+
+  html header nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+
+  html h1 a {
+    margin-left: 170px;
+  }
+
+  html body div.imagen-head img {
+    width: 700px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  html .contenedor-dedicamos {
+    margin: 50px;
+  }
+
+  html p {
+    font-size: 35px;
+  }
+
+  html h2 {
+    font-size: 50px;
+  }
+
+  html .contenedor-artistas .iframe-index {
+    left: 100px;
+  }
+
+  html footer .contacto-footer {
+    float: none;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  html footer .p-footer {
+    float: none;
+    text-align: center;
+    font-size: 30px;
+  }
+}
